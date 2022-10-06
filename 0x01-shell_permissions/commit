@@ -3,7 +3,7 @@ echo 'Enter file name:'
 
 read fileName
 
-if [ -x $fileName ]; then 
+if [ -e $fileName ]; then 
 
 	chmod 755 $fileName
 
